@@ -4,7 +4,7 @@
 if [ "$1" == "" ]
 then
     echo "no commit message!"
-    echo "do nothing,"
+    echo "do nothing!"
     exit 1
 fi
 
