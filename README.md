@@ -1,10 +1,23 @@
-# Frank Shell
+# Frank Bash
 
+```
 @author: Frank Liu
-@email: frankliu624@gmail.com
-
+@email: <frankliu624@gmail.com>
+```
 Frank Liu整理的好用的Linux shell脚本，bash工具，帮助改善你的Linux，提升工作效率。
 
-### 目 录
+## 目 录
 
-#### 1 [给 “rm” 命令添加个“垃圾桶”](https://github.com/FLHonker/fl-bash/blob/master/rm-saferm/%E7%BB%99rm%E5%91%BD%E4%BB%A4%E5%8A%A0%E4%B8%AA%E5%9E%83%E5%9C%BE%E6%A1%B6.md)
+1. [给 “rm” 命令添加个“垃圾桶”](https://github.com/FLHonker/fl-bash/tree/master/rm-saferm)
+
+2. [linux echo 让你的脚本输出加上颜色](https://github.com/FLHonker/fl-bash/tree/master/echo-colorFunc)
+
+3. [为自己的github pages博客写的自动发布脚本](https://github.com/FLHonker/fl-bash/tree/master/github.io-publish) 
+
+4. [Shadowsocks-Qt5-Installation-on-Debian](https://github.com/FLHonker/fl-bash/tree/master/ssr-qt5-install)
+
+5. [opencv单源码文件快速编译bash脚本](https://github.com/FLHonker/fl-bash/tree/master/opencv_cpp_build/)
+
+6. [VPS服务器一键部署SSR](https://github.com/FLHonker/fl-bash/tree/master/autoVPS-SSR/)
+
+7. [Linux配置py-ssr命令行fq工具](https://github.com/noahziheng/ssr-helper)
