@@ -24,4 +24,6 @@ Frank Liu整理的好用的Linux shell脚本，bash工具，帮助改善你的Li
 
 8. [多系统grub2引导主题美化](https://github.com/FLHonker/fl-bash/tree/master/Griffin-Grub-Remix/)
 
-9. [史上最伟大Ubuntu16.04+ 开发办公环境一键部署脚本](https://github.com/FLHonker/fl-bash/tree/master/Ubuntu_deploy/)
+9. [burg美化grub2(不推荐)](https://github.com/FLHonker/fl-bash/tree/master/burg_install/) 
+
+10.  [史上最伟大Ubuntu16.04+ 开发办公环境一键部署脚本](https://github.com/FLHonker/fl-bash/tree/master/Ubuntu_deploy/)
