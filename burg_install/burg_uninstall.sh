@@ -10,5 +10,5 @@
 # @Create Time: 2018-11-02 12:24:42
 # @Last Modified: 2018-11-02 12:24:42
 #***********************************************/
-ROOT_UID=0
+
 sudo apt-get remove burg burg-themes burg-emu 

@@ -11,7 +11,6 @@
 # @Last Modified: 2018-11-02 12:08:40
 #***********************************************/
 
-ROOT_UID=0
 # 1.添加源
 sudo add-apt-repository ppa:n-muench/burg
 # 2.更新源
