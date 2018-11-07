@@ -27,8 +27,8 @@ Frank在历经3年的Linux开发和运维后，总结了Ubuntu版本下常用的
 2. 卸载自带不常用软件包：LibreOffice, unity-webapps-common(Amazon), empathy, brasero, simple-scan, gnome-mahjongg, aisleriot, gnome-mines, gnome-orca, webbrowser-app, gnome-sudoku, onboard, deja-dup, landscape-client-ui-install。
 3. 设置右键新建常用模板文件: *.docx, *.xlsx, *.pptx, *.txt, *.md 等。
 4. dev命令行工具：git, ssh, g++, cmake, npm, zip, unzip, rar, unrar, tar, curl, wget 。
-5. dev开发环境（C\/C++，Java，Python2，Python3,go,octave为主）: build-essential, python2, python3, pip2, pip3, jdk1.8, go-1.10, PyTorch, numpy, caffe-cpu, turtle 。
-6. 办公软件与IDE：Chrome, 网易云音乐, GoLand2018, Eclipse, BaiduPCS-Go, MEGA, uGet, VSCode, WPS, 搜狗输入法。
+5. dev开发环境（C\/C++，Java，Python2，Python3,go,octave为主）: gcc, g++, make, build-essential, python2, python3, pip2, pip3, jdk1.8, go-1.10, PyTorch, numpy, caffe-cpu, turtle, OpenCV3.4.2 。
+6. 办公软件与IDE：VLC, Chrome, 网易云音乐, GoLand2018, Eclipse, BaiduPCS-Go, MEGA, uGet, VSCode, WPS, 搜狗输入法。
 7. shell命令行优化: oh-my-zsh + fonts + themes 。
 8. Frank独家超级Vim： vim-plus-plus 。
 9.  SSR科学上网命令行工具： ShadowsocksR Python, ssr-helper
