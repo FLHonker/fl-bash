@@ -50,7 +50,7 @@ email: <frankliu624@gmail.com>
 感谢开源社区、各位大神总结的各种繁琐的软件安装教程和脚本工具，使用过程中如有问题，希望您及时反馈帮助改正，感谢您的理解和支持！
 如果您觉得对本工具满意，继续支持Frank为开源社区贡献好用的工具，并愿意给予一定打赏，请扫描下面二维码：
 <div align=center>
-<img src="https://res.cloudinary.com/flhonker/image/upload/flhonker-hugo/logo/alipay.jpg" width=35% heigth=35% />
+<img src="https://res.cloudinary.com/flhonker/image/upload/flhonker-hugo/logo/alipay.jpg" width=28% heigth=28% />
 </div>
 
 
