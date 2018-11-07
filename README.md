@@ -26,4 +26,4 @@ Frank Liu整理的好用的Linux shell脚本，bash工具，帮助改善你的Li
 
 9. [burg美化grub2(不推荐)](https://github.com/FLHonker/fl-bash/tree/master/burg_install/) 
 
-10.  [史上最伟大Ubuntu16.04+ 开发办公环境一键部署脚本](https://github.com/FLHonker/fl-bash/tree/master/Ubuntu_deploy/)
+10.  [史上最伟大Ubuntu16.04+ 开发办公环境一键部署脚本](https://github.com/FLHonker/Ubuntu_deploy/)
