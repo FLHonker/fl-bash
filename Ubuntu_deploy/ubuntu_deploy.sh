@@ -30,10 +30,22 @@ fi
 # 在当前user的主目录下创建dev目录作为所有软件的安装目录
 mkdir ~/dev
 
-# 1. 为便于后续安装步骤需要，首先安装一些必要的命令行工具: git, ssh, g++, cmake, npm, zip, unzip, rar, unrar, tar, curl, wget
+# 判断是否是ubuntu16.04LTS版本
+function is_ubuntu1804()
+{
+    version=$(cat /etc/lsb-release | grep "DISTRIB_RELEASE")
+    if [ ${version} == "DISTRIB_RELEASE=18.04" ]; then
+        echo 1
+    else
+        echo 0
+    fi
+}
+
+################### 1. 首先安装一些必要的命令行工具 ##################
+#为便于后续安装步骤需要，首先安装一些必要的命令行工具: git, ssh, g++, cmake, npm, zip, unzip, rar, unrar, tar, curl, wget
 sudo apt-get install git ssh g++ cmake npm zip unzip rar unrar tar curl wget
 
-# 2. 双系统启动grub2主题美化：`Griffin-Grub-Remix`
+################# 2. 双系统启动grub2主题美化：`Griffin-Grub-Remix` ###################
 # 主题安装包的URL
 cd packages
 if [ ! -f Griffin-Grub-Remix.zip ];then
@@ -46,7 +58,7 @@ unzip -o Griffin-Grub-Remix.zip
 cd Griffin-Grub-Remix
 sudo ./install.sh
 
-# 3. 卸载自带不常用软件包
+#################### 3. 卸载自带不常用软件包 ####################
 # 卸载libreoffices
 sudo apt-get remove libreoffice-common
 # 删除Amazon广告图标
@@ -68,7 +80,7 @@ elif [ -d ~/模板 ];then
     touch markdown.md
 fi
 
-# 5. dev开发环境
+##################### 5. dev开发环境 #########W############
 # C++ dev
 sudo apt install gcc g++ make build-essential
 # Python, py的numpy、pyTorch、turtle等库和包默认都是安装使用Python3的
@@ -83,10 +95,27 @@ sudo pip3 install torchvision
 sudo pip install turtle
 # for python3,需要下载源码手动修改setup.py文件后安装
 cd $workDir/packages
-wget 
+url_turtle="https://github.com/FLHonker/fl-bash/raw/master/Ubuntu_deploy/packages/turtle-0.0.2.zip"
+if [ ! -f turtle-0.0.2.zip ];then
+    wget ${url_turtle}
+fi
 unzip turtle-0.0.2.zip
 cd turtle-0.0.2
 sudo pip3 install -e turtle-0.0.2
+# caffe-cpu only for Ubuntu18.04，低版本的ubuntu请手动编译安装
+if [ is_ubuntu1804 -eq 1 ];then
+    sudo apt install caffe-cpu
+else
+    echo "目前，非Ubuntu18.04版本请手动编译安装caffe！"
+fi
+
+# golang
+sudo apt install golang
+
+# Oracle JDK-1.8
+url_jdk=""
+
+
 
 # 如果url失效导致下载失败，则使用备用url
 if [ $? -ne 0 ];then
